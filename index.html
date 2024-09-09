@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Up FF</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Top Up Free Fire</h1>
+    </header>
+
+    <section class="topup-form">
+        <h2>Isi Data Pembelian</h2>
+        <form>
+            <label for="player-id">ID Pemain:</label>
+            <input type="text" id="player-id" name="player-id" placeholder="Masukkan ID pemain" required>
+
+            <label for="nominal">Nominal Top Up:</label>
+            <select id="nominal" name="nominal">
+                <option value="70">70 Diamonds - Rp 10.000</option>
+                <option value="140">140 Diamonds - Rp 20.000</option>
+                <option value="355">355 Diamonds - Rp 50.000</option>
+                <option value="720">720 Diamonds - Rp 100.000</option>
+            </select>
+
+            <label for="payment-method">Metode Pembayaran:</label>
+            <select id="payment-method" name="payment-method">
+                <option value="gopay">GoPay</option>
+                <option value="ovo">OVO</option>
+                <option value="dana">DANA</option>
+                <option value="pulsa">Pulsa Telkomsel</option>
+            </select>
+
+            <button type="submit">Proses Pembelian</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Top Up FF. All rights reserved.</p>
+    </footer>
+</body>
+</html>
